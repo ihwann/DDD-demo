@@ -155,7 +155,6 @@ public class AppController {
                 Pay payInfo = requestPayInfo.get();
                 payInfo.payPG(payInfo);
             } else {
-                commandMainPage();
                 return;
             }
         }
